@@ -18,7 +18,7 @@ class CreateProductorTable extends Migration
             $table->string('nombre_pr');
             $table->string('apellido_pr');
             $table->string('nombre_productora_pr');
-            $table->string('ndireccion_productora_pr');
+            $table->string('direccion_productora_pr');
             $table->string('correo_pr')->unique();
             $table->string('telefono_pr');
             $table->longText('descripcion_pr');
