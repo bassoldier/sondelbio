@@ -18,10 +18,12 @@ class CreateMaterialTable extends Migration
             $table->date('fecha_ma');
             $table->string('nombre_ma');
             $table->integer('precio_ma');
-            $table->integer('cantidad_mer');
+            $table->string('sello_ma');
+            $table->string('genero_ma');
+            $table->string('tipo_ma');
+            $table->time('duracion_ma');
+            $table->integer('cantidad_canciones_ma');
             $table->longText('descripcion_mer');
-            
-            
             $table->timestamps();
         });
     }
